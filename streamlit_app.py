@@ -2,7 +2,7 @@ import streamlit as st
 
 num1  = st.number_input('Enter num1')
 num2 = st.number_input('Enter num2')
-st.write('The numbers are', num1 + num2)
+
 
 symbol = st.radio("Click one of the mathematical calculation symbols",
                   ('Addition', 'Subtraction', 'Multiplying', 'Division'))
